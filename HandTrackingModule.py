@@ -1,12 +1,13 @@
-import cv2
-import mediapipe as mp
-
 """
 Author: Batchansaa Batzorig
 Date: October 2021
 
 Get the fingertip positions for easy processing.
 """
+
+import cv2
+import mediapipe as mp
+
 
 class handDetector():
     def __init__(self, mode=False, maxHands=1, detectionCon=0.5, trackCon=0.5):
